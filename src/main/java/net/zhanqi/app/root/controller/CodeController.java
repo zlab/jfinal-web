@@ -6,9 +6,9 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 import com.jfinal.core.Controller;
-import com.jfinal.log.Logger;
-import net.zhanqi.jfinal.ext.core.ImageRender;
-import net.zhanqi.jfinal.ext.plugin.code.MatrixToImageWriter;
+import com.jfinal.log.Log;
+import net.zhanqi.app.root.core.ImageRender;
+import net.zhanqi.app.root.plugin.code.MatrixToImageWriter;
 
 import java.awt.image.BufferedImage;
 
@@ -17,7 +17,7 @@ import java.awt.image.BufferedImage;
  */
 public class CodeController extends Controller {
 
-    private static final Logger log = Logger.getLogger(CodeController.class);
+    private static final Log log = Log.getLog(CodeController.class);
 
     public void qrCode() {
         Writer writer = new QRCodeWriter();

@@ -3,13 +3,10 @@ package net.zhanqi.app.root.plugin.jssdk;
 import com.jfinal.aop.Interceptor;
 import com.jfinal.aop.Invocation;
 import com.jfinal.core.Controller;
-import com.jfinal.weixin.sdk.api.AccessToken;
 import com.jfinal.weixin.sdk.api.ApiConfigKit;
 import com.jfinal.weixin.sdk.api.SnsAccessToken;
 import com.jfinal.weixin.sdk.api.SnsAccessTokenApi;
-import com.jfinal.weixin.sdk.jfinal.ApiController;
-import com.jfinal.weixin.sdk.kit.ParaMap;
-import net.zhanqi.jfinal.ext.core.BaseController;
+import net.zhanqi.app.root.core.BaseController;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

@@ -6,8 +6,8 @@ import com.jfinal.weixin.sdk.api.ApiConfig;
 import com.jfinal.weixin.sdk.api.ApiResult;
 import com.jfinal.weixin.sdk.api.CustomServiceApi;
 import com.jfinal.weixin.sdk.jfinal.ApiController;
-import net.zhanqi.jfinal.ext.plugin.jssdk.BaseOauthInterceptor;
-import net.zhanqi.jfinal.ext.plugin.jssdk.JsApiSignature;
+import net.zhanqi.app.root.plugin.jssdk.BaseOauthInterceptor;
+import net.zhanqi.app.root.plugin.jssdk.JsApiSignature;
 
 /**
  * Created by zhanqi on 2015/8/5.

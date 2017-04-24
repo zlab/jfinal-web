@@ -12,8 +12,8 @@ import freemarker.template.TemplateModelException;
 import net.zhanqi.app.root.controller.weixin.WeixinApiController;
 import net.zhanqi.app.root.controller.weixin.WeixinMsgController;
 import net.zhanqi.app.root.controller.zh.InputController;
+import net.zhanqi.app.root.core.Slf4jLogFactory;
 import net.zhanqi.app.root.model.WxZhInput;
-import net.zhanqi.jfinal.ext.core.Slf4jLoggerFactory;
 
 /**
  * API引导式配置
@@ -36,8 +36,8 @@ public class AppConfig extends JFinalConfig {
         me.setError500View("/common/500.ftl");
         me.setErrorView(400, "/common/400.ftl");
         me.setFreeMarkerViewExtension(".ftl");
-        me.setUploadedFileSaveDirectory(getProperty("uploadDir"));
-        me.setLoggerFactory(new Slf4jLoggerFactory());
+//        me.setUploadedFileSaveDirectory(getProperty("uploadDir"));
+        me.setLogFactory(new Slf4jLogFactory());
 
 //        JsonRender.addExcludedAttrs("_paramList", "_configList");
 

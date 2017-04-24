@@ -1,14 +1,14 @@
 package net.zhanqi.app.root.controller;
 
 import com.jfinal.core.Controller;
-import com.jfinal.log.Logger;
+import com.jfinal.log.Log;
 
 /**
  * LoginApiController
  */
 public class LoginController extends Controller {
 
-    private static final Logger log = Logger.getLogger(LoginController.class);
+    private static final Log log = Log.getLog(LoginController.class);
 
     public void index() {
         log.warn("login");

@@ -4,7 +4,7 @@ import com.jfinal.kit.HashKit;
 import com.jfinal.weixin.sdk.api.ApiConfigKit;
 import com.jfinal.weixin.sdk.api.JsTicket;
 import com.jfinal.weixin.sdk.api.JsTicketApi;
-import net.zhanqi.jfinal.ext.util.CheckUtils;
+import net.zhanqi.app.root.util.CheckUtils;
 
 import java.util.HashMap;
 import java.util.Map;

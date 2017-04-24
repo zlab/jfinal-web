@@ -1,6 +1,6 @@
 package net.zhanqi.app.root.util;
 
-import net.zhanqi.jfinal.ext.core.CustomException;
+import net.zhanqi.app.root.core.CustomException;
 
 import java.util.Collection;
 
